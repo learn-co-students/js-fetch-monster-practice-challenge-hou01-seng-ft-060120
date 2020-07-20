@@ -3,14 +3,26 @@
   <head>
     <meta charset="utf-8">
     <title>Monstr</title>
-    <!-- <script src='js/index.js'></script> -->
-    <script src='js/demo.js'></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src='js/index.js'></script>
+    <!-- <script src='js/demo.js'></script> -->
   </head>
   <body>
-    <h1>Monstr Inc.</h1>
-    <div id='create-monster'></div>
-    <div id='monster-container'></div>
-    <button id="back"><=</button>
-    <button id="forward">=></button>
+    <div id="header">
+      <h1>Monsters, Inc.</h1>
+    </div>
+    <div class="container">
+      <div id="create-monsters-form-container">
+      </div>
+
+      <div id='monsters-container'>
+          <div class="row" id="monsters-row">
+          </div>
+      </div>
+
+      <button id="back" class="btn btn-primary">Back</button>
+      <button id="next" class="btn btn-primary">Next</button>
+    </div>
   </body>
 </html>
